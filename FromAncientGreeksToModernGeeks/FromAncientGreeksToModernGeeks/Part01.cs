@@ -47,7 +47,7 @@ public class UnitTest1
             $"{x.Doctor}, {Math.Round(x.Probability, 2)}"
         );
 
-        var reportHeader = "Doctor, Probability";
+        const string reportHeader = "Doctor, Probability";
 
         var report = reportHeader + Environment.NewLine + string.Join(Environment.NewLine, reportLines);
     }
